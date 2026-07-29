@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11806.211
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53D0E760-821D-4366-85BC-4DEE1CD40F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperateResult", "src\OperateResult\OperateResult.csproj", "{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{5AE39F70-7642-46FA-BB97-928C17B17C28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E2FA58ED-C0CC-4D41-A777-D57B3AF17C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12}.Debug|x64.ActiveCfg = Debug|x64
+		{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12}.Debug|x64.Build.0 = Debug|x64
+		{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12}.Release|x64.ActiveCfg = Release|x64
+		{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E1FF356-E544-D19B-B33F-9C5C8FC6BE12} = {53D0E760-821D-4366-85BC-4DEE1CD40F39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CCAB3CC-A722-453F-83E5-66D1A2E2FE26}
+	EndGlobalSection
+EndGlobal
