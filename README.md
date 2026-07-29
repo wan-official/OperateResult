@@ -16,4 +16,16 @@
 
 ## 📦 安装
 
-### 通过 NuGet 安装（即将推出）
+### 通过 源码安装
+
+
+## 🚀 快速开始
+
+### 基本用法
+
+```using
+成功的操作结果 var successResult = OperateResult.Success();
+带返回值的成功结果 var dataResult = OperateResult.Success("操作成功");
+失败的操作结果 var failResult = OperateResult.Fail("操作失败");
+检查结果 if (dataResult.IsSuccess) { Console.WriteLine(dataResult.Data); }
+```
